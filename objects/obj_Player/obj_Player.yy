@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_PlaceHolder",
+    "path":"sprites/spr_PlaceHolder/spr_PlaceHolder.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
