@@ -1,7 +1,17 @@
 getControls()
 
-withinRange = place_meeting(x, y, obj_Player)
+if (!instance_exists(obj_Player)) { exit }
 
-if (withinRange and _interact) {
-	interactAction()
+var _distance = distance_to_object(obj_Player)
+withinRange = _distance <= pixelRange
+
+if (instance_exists(obj_Dialogue)) {
+	interactLocked = true
+	exit
 }
+
+if (_interactRelease)
+	interactLocked = false
+
+if (withinRange and _interactPress and obj_Player.grounded && !interactLocked) 
+	interactAction()

@@ -1,4 +1,7 @@
 // Inherit the parent event
 event_inherited();
 
-image_xscale = sign(obj_Player.x - x)
+var _playerDir = sign(obj_Player.x - x)
+
+if _playerDir != 0
+	image_xscale = _playerDir

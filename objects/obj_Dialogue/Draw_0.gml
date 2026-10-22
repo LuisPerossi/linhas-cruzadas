@@ -2,13 +2,23 @@
 depth = -9999
 draw_set_font(font_Press2P)
 
-// Variables setup
+// Setup vars
 var _padding = 3
-var _box_width = room_width - (_padding * 2)
-var _box_x = (room_width - _box_width) / 2
 
-var _box_height = 80
-var _box_y = room_height - _box_height - _padding
+// Get the active camera's visible area
+var _camera = view_camera[0];
+
+var _view_x = camera_get_view_x(_camera);
+var _view_y = camera_get_view_y(_camera);
+var _view_width = camera_get_view_width(_camera);
+var _view_height = camera_get_view_height(_camera);
+
+// Calculate textbox dimensions and position
+var _box_width = _view_width - (_padding * 2);
+var _box_x = _view_x + _padding;
+
+var _box_height = 80;
+var _box_y = _view_y + _view_height - _box_height - _padding;
 
 // Drawing the textbox
 draw_set_colour(c_black)

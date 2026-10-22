@@ -2,8 +2,9 @@ getControls()
 
 curDialog = dialogs[page]
 
-if (_confirm)
+if (_interactPress) {
 	if (page < array_length(dialogs) - 1)
 		page++
-	else
-		instance_destroy()
+	else 
+	instance_destroy()
+}

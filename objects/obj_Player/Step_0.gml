@@ -1,6 +1,6 @@
-if (instance_exists(obj_Dialogue)) { exit } 
-
 getControls()
+
+if (instance_exists(obj_Dialogue)) { exit } 
 
 // Variable setup
 moveDir = _right - _left
@@ -10,7 +10,7 @@ var _subPixel = 1
 if (moveDir != 0)
 	facing = moveDir
 	
-image_xscale = facing * 2
+image_xscale = facing
 
 // Calculate xspd
 xspd = moveDir * spd

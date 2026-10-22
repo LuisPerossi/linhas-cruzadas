@@ -4,7 +4,11 @@ function getControls() {
 	_up = keyboard_check(vk_up) or keyboard_check(ord("W"))
 	_down = keyboard_check(vk_down) or keyboard_check(ord("S"))
 	
+	
+	
 	_jump = keyboard_check_pressed(vk_up) or keyboard_check_pressed(ord("W")) or keyboard_check_pressed(vk_space)
-	_confirm = keyboard_check_pressed(vk_space) or keyboard_check_pressed(vk_enter)
-	_interact = keyboard_check_pressed(vk_up) or keyboard_check_pressed(ord("W"))
+	_interactPress = keyboard_check_pressed(ord("E")) or keyboard_check_pressed(vk_enter)
+	_interactRelease = keyboard_check_released(ord("E")) or keyboard_check_released(vk_enter)
+	//_confirm = keyboard_check_pressed(vk_space) or keyboard_check_pressed(vk_enter)
+	//_interact = keyboard_check_pressed(vk_up) or keyboard_check_pressed(ord("W"))
 }
