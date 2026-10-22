@@ -1,4 +1,11 @@
-if (instance_exists(obj_Textbox)) { exit } 
+
+if (global.estado_jogo == "MENU") {
+
+    sprite_index = spr_PlaceHolderPlayer; 
+    exit;
+}
+
+
 
 getControls()
 
