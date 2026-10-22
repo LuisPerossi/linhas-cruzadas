@@ -7,7 +7,3 @@ function getControls() {
 	_confirm = keyboard_check_pressed(vk_space) or keyboard_check_pressed(vk_enter)
 	_jump = keyboard_check_pressed(vk_up) or keyboard_check_pressed(ord("W")) or keyboard_check_pressed(vk_space)
 }
-
-function doChecks() {
-	_grounded = place_meeting(x, y + 1, obj_Collision)
-}		

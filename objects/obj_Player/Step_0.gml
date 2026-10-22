@@ -1,3 +1,5 @@
+if (instance_exists(obj_Textbox)) { exit } 
+
 getControls()
 
 // Variable setup
