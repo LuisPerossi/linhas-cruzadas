@@ -1,4 +1,4 @@
-if (instance_exists(obj_Textbox)) { exit } 
+if (instance_exists(obj_Dialogue)) { exit } 
 
 getControls()
 

@@ -35,19 +35,3 @@ draw_text_ext(_text_x, _text_y, curDialog.name, _height, _text_width)
 // Drawing the character message
 draw_set_colour(c_white)
 draw_text_ext(_text_x, _text_y + _height, curDialog.message, _height, _text_width)
-
-
-
-//draw_set_colour(c_white)
-//draw_text_ext(_textX, _textY + _height + _padding, curDialog.message, 0, _maxWidth)
-
-//draw_text(0, 0, dialogs[page].name)
-//draw_text(0, 20, dialogs[page].message)
-
-/*
-var _textToDraw = textArray[curPage]
-
-draw_set_colour(c_black)
-
-draw_set_font(font_Press2P)
-draw_text_ext(box_x + 20, box_y + 20, _textToDraw, 24, box_width - 40)

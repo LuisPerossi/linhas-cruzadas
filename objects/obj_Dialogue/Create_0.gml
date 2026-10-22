@@ -8,14 +8,8 @@ add = function(_sprite, _name, _message) {
 		name: _name,
 		message: _message
 	})
+	
+	if (array_length(dialogs) == 1) {
+        curDialog = dialogs[0];
+    }
 }
-
-/*
-
-textArray = []
-curPage = 0
-
-box_width = room_width - 50
-box_height = 120
-box_x = (room_width - box_width) / 2
-box_y = room_height - box_height - 20
