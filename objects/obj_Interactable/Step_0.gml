@@ -1,6 +1,7 @@
 getControls()
 
 if (!instance_exists(obj_Player)) { exit }
+if (!canInteract) { exit }
 
 var _distance = distance_to_object(obj_Player)
 withinRange = _distance <= pixelRange
