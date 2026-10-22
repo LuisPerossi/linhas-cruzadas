@@ -8,8 +8,8 @@
   "name":"obj_Manager",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Management & UI",
+    "path":"folders/Objects/Management & UI.yy",
   },
   "parentObjectId":null,
   "persistent":false,
