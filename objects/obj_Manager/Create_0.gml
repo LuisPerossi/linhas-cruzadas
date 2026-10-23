@@ -9,5 +9,5 @@ opcoes = ["JOGAR", "OPÇÕES", "SAIR"];
 index_selec = 0;
 espacamento = 32
 
-iniciando_jogo = false;
+inicio_jogo = false;
 alpha_menu = 1;
