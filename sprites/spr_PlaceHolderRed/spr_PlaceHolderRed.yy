@@ -25,7 +25,7 @@
   "nineSlice":{
     "$GMNineSliceData":"",
     "bottom":0,
-    "enabled":false,
+    "enabled":true,
     "guideColour":[4294902015,4294902015,4294902015,4294902015,],
     "highlightColour":1728023040,
     "highlightStyle":0,
@@ -44,8 +44,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"PlaceHolders",
-    "path":"folders/Sprites/PlaceHolders.yy",
+    "name":"Place Holders",
+    "path":"folders/Sprites/Place Holders.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

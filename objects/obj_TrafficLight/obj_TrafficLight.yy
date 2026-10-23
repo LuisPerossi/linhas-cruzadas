@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_PlaceHolderPink",
-    "path":"sprites/spr_PlaceHolderPink/spr_PlaceHolderPink.yy",
+    "name":"spr_TrafficLight",
+    "path":"sprites/spr_TrafficLight/spr_TrafficLight.yy",
   },
   "spriteMaskId":null,
   "visible":true,

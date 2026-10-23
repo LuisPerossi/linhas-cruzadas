@@ -44,8 +44,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"PlaceHolders",
-    "path":"folders/Sprites/PlaceHolders.yy",
+    "name":"Place Holders",
+    "path":"folders/Sprites/Place Holders.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -1,7 +1,9 @@
 // Inherit the parent event
 event_inherited();
 
+// Setup interactable class
 interactable = false
+offsetY = 50
 
 interactAction = function() {
 	interactable = false
