@@ -42,6 +42,7 @@
     {"id":{"name":"obj_Planks","path":"objects/obj_Planks/obj_Planks.yy",},},
     {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},},
     {"id":{"name":"obj_TempMinigame","path":"objects/obj_TempMinigame/obj_TempMinigame.yy",},},
+    {"id":{"name":"obj_Textbox","path":"objects/obj_Textbox/obj_Textbox.yy",},},
     {"id":{"name":"rm_Minigame1","path":"rooms/rm_Minigame1/rm_Minigame1.yy",},},
     {"id":{"name":"rm_Stage1","path":"rooms/rm_Stage1/rm_Stage1.yy",},},
     {"id":{"name":"room_Test","path":"rooms/room_Test/room_Test.yy",},},
