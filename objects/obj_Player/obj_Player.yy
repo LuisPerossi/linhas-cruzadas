@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_PlayerWalk",
-    "path":"sprites/spr_PlayerWalk/spr_PlayerWalk.yy",
+    "name":"spr_PlayerIdle",
+    "path":"sprites/spr_PlayerIdle/spr_PlayerIdle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_BlindWalk",
-    "path":"sprites/spr_BlindWalk/spr_BlindWalk.yy",
+    "name":"spr_BlindIdle",
+    "path":"sprites/spr_BlindIdle/spr_BlindIdle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

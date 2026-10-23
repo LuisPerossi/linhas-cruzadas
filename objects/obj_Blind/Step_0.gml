@@ -218,9 +218,9 @@ if (curStage == 10) {
 			if (instance_exists(obj_Dialogue)) { exit }	
 			
 			var _dialogue = instance_create_layer(x, y, "Instances", obj_Dialogue)
-			_dialogue.add(spr_BlindDialogue, "NAOMI", "O quê?! O Instituto está trancado!")
-			_dialogue.add(spr_PlayerDialogue, "ALÍCIA", "Hum?")
-			_dialogue.add(spr_PlayerDialogue, "ALÍCIA", "Eu nunca tinha visto essa tranca eletrônica...")
+			_dialogue.add(spr_PlayerDialogue, "ALÍCIA", "O quê?! O Instituto está trancado!")
+			_dialogue.add(spr_BlindDialogue, "NAOMI", "Hum? Que estranho...")
+			_dialogue.add(spr_PlayerDialogue, "ALÍCIA", "Pois é! Tem algum tipo de trava eletrônica...")
 			_dialogue.add(spr_PlayerDialogue, "ALÍCIA", "Parece algum tipo de desafio especial para o Dia da Acessibilidade!")
 			_dialogue.add(spr_PlayerDialogue, "ALÍCIA", "Vamos dar uma olhada...")
 

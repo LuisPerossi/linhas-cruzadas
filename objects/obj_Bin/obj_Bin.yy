@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_RubbishPile",
+  "%Name":"obj_Bin",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_RubbishPile",
+  "name":"obj_Bin",
   "overriddenProperties":[],
   "parent":{
     "name":"Bridge",
@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_PlaceHolderGray",
-    "path":"sprites/spr_PlaceHolderGray/spr_PlaceHolderGray.yy",
+    "name":"spr_Bin",
+    "path":"sprites/spr_Bin/spr_Bin.yy",
   },
   "spriteMaskId":null,
   "visible":true,

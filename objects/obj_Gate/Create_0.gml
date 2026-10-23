@@ -1,7 +1,9 @@
 // Inherit the parent event
 event_inherited();
 
-interactable = false
+image_alpha = 0
+
+interactable = true
 interactAction = function() {
 	interactable = false
 	global.objective = -1
