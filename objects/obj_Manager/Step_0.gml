@@ -8,7 +8,7 @@ if (!iniciando_jogo) {
         index_selec++;
         if (index_selec >= array_length(opcoes)) index_selec = 0;
     }
-    if (tecla_cima) {
+    if (seta_cima) {
         index_selec--;
         if (index_selec < 0) index_selec = array_length(opcoes) - 1;
     }
@@ -16,7 +16,7 @@ if (!iniciando_jogo) {
     
 
     if (tecla_confirma) {
-        if (index_selecionado == 0) { 
+        if (index_selec == 0) { 
             iniciando_jogo = true; 
          
         }
