@@ -1,6 +1,11 @@
 // Inherit the parent event
 event_inherited();
 
+interactable = false
+
 interactAction = function() {
+	interactable = false
+	global.objective = -1
+	if (instance_exists(obj_Blind)) { obj_Blind.nextStage() }
 	room_goto(rm_MinigameTrafficLight)
 }
