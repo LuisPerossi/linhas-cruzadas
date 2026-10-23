@@ -34,5 +34,5 @@
     "path":"sprites/spr_PlaceHolderGreen/spr_PlaceHolderGreen.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

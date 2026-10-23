@@ -3,7 +3,7 @@ moveDir = 0
 facing = 1
 xspd = 0
 yspd = 0
-spd = 3
+spd = 2
 
 // Jumping
 grav = .2

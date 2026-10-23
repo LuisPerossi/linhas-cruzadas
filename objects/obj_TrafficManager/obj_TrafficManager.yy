@@ -9,8 +9,8 @@
   "name":"obj_TrafficManager",
   "overriddenProperties":[],
   "parent":{
-    "name":"Screen",
-    "path":"folders/Objects/Minigames/TrafficLight/Screen.yy",
+    "name":"TrafficLight",
+    "path":"folders/Objects/Minigames/TrafficLight.yy",
   },
   "parentObjectId":null,
   "persistent":false,

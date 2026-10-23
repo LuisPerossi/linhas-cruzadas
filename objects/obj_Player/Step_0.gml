@@ -1,6 +1,9 @@
 getControls()
 
-if (instance_exists(obj_Dialogue)) { exit } 
+if (instance_exists(obj_Dialogue)) {
+	xspd = 0
+	exit 
+} 
 
 // Variable setup
 moveDir = _right - _left

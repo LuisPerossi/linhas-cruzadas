@@ -9,8 +9,9 @@ curStage = 0
 interactable = true
 
 // Variables
-xspd = 1.5
-maxFollowDistance = 50
+spd = 1
+xspd = 0
+maxFollowDistance = 80
 
 // Functions
 nextStage = function() {

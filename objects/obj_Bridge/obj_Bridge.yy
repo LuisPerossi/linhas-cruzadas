@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_PlaceHolderGreen",
-    "path":"sprites/spr_PlaceHolderGreen/spr_PlaceHolderGreen.yy",
+    "name":"spr_BridgePlaced",
+    "path":"sprites/spr_BridgePlaced/spr_BridgePlaced.yy",
   },
   "spriteMaskId":null,
   "visible":true,
