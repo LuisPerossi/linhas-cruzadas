@@ -1,18 +1,11 @@
-getControls()
-
+if (!interactable) { exit }
 if (!instance_exists(obj_Player)) { exit }
-if (!canInteract) { exit }
 
-var _distance = distance_to_object(obj_Player)
-withinRange = _distance <= pixelRange
+inRange = (distance_to_object(obj_Player) <= maxInteractDistance)
 
-if (instance_exists(obj_Dialogue)) {
-	interactLocked = true
-	exit
-}
+var _interact = keyboard_check_pressed(ord("E"))
+var _playerGrounded = obj_Player.onGround
 
-if (_interactRelease)
-	interactLocked = false
-
-if (withinRange and _interactPress and obj_Player.grounded && !interactLocked) 
+if (inRange && _interact && _playerGrounded) { 
 	interactAction()
+}

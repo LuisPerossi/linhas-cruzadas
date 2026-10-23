@@ -10,8 +10,8 @@
   "name":"obj_Player",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Characters",
+    "path":"folders/Objects/Characters.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_PlaceHolderPlayer",
-    "path":"sprites/spr_PlaceHolderPlayer/spr_PlaceHolderPlayer.yy",
+    "name":"spr_Player",
+    "path":"sprites/spr_Player/spr_Player.yy",
   },
   "spriteMaskId":null,
   "visible":true,

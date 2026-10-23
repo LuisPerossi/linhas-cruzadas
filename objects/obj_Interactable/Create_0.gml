@@ -1,11 +1,9 @@
+interactable = true
 interactAction = function() {}
-interactLocked = false
-canInteract = true
 
-pixelRange = 10
-withinRange = false
+maxInteractDistance = 20
+inRange = false
 
-arrowX = x
-arrowY = y
-
-margin = 5
+offsetX = 0
+offsetY = 0
+marginY = 5

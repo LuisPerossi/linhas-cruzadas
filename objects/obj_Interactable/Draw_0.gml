@@ -1,6 +1,4 @@
 draw_self()
-//draw_text(x, y, withinRange)
+if (!interactable) { exit }
 
-if (withinRange) {
-	draw_sprite(spr_KeyE, -1, arrowX, arrowY)
-}
+if (inRange) { draw_sprite(spr_KeyE, -1, x + offsetX, y - offsetY - marginY) }

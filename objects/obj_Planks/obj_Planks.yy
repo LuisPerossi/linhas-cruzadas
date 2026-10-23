@@ -8,8 +8,8 @@
   "name":"obj_Planks",
   "overriddenProperties":[],
   "parent":{
-    "name":"Minigames",
-    "path":"folders/Objects/Minigames.yy",
+    "name":"Bridge",
+    "path":"folders/Objects/Minigames/Bridge.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_PlaceHolderGreen",
-    "path":"sprites/spr_PlaceHolderGreen/spr_PlaceHolderGreen.yy",
+    "name":"spr_PlaceHolderRed",
+    "path":"sprites/spr_PlaceHolderRed/spr_PlaceHolderRed.yy",
   },
   "spriteMaskId":null,
   "visible":true,

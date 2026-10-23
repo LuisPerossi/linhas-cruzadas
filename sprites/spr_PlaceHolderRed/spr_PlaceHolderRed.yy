@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"spr_PlaceHolderRed",
   "bboxMode":0,
-  "bbox_bottom":15,
+  "bbox_bottom":31,
   "bbox_left":0,
-  "bbox_right":15,
+  "bbox_right":31,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":16,
+  "height":32,
   "HTile":true,
   "layers":[
     {"$GMImageLayer":"","%Name":"f16063c2-d131-400b-a9ca-03bcbce120ee","blendMode":0,"displayName":"default","isLocked":false,"name":"f16063c2-d131-400b-a9ca-03bcbce120ee","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -25,7 +25,7 @@
   "nineSlice":{
     "$GMNineSliceData":"",
     "bottom":0,
-    "enabled":true,
+    "enabled":false,
     "guideColour":[4294902015,4294902015,4294902015,4294902015,],
     "highlightColour":1728023040,
     "highlightStyle":0,
@@ -44,8 +44,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"PlaceHolders",
+    "path":"folders/Sprites/PlaceHolders.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -105,5 +105,5 @@
   },
   "type":0,
   "VTile":true,
-  "width":16,
+  "width":32,
 }

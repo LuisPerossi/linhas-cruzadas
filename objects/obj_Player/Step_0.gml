@@ -26,7 +26,7 @@ if (place_meeting(x + xspd, y, obj_Collision)) {
 yspd += grav
 
 // Jumping
-if _jump and grounded
+if _jump and onGround
 	yspd = jspd
 	
 // Fall speed cap
@@ -45,4 +45,4 @@ x += xspd
 y += yspd
 
 // Checks
-grounded = place_meeting(x, y + 1, obj_Collision)
+onGround = place_meeting(x, y + 1, obj_Collision)

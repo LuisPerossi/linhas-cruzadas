@@ -1,12 +1,10 @@
-getControls()
+var _next = keyboard_check_pressed(ord("E"))
 
-curDialog = dialogs[page]
-
-if (_interactPress) {
-	if (page < array_length(dialogs) - 1)
-		page++
-	else {
-		onEnd()
-		instance_destroy()
+if (_next) {
+	if (index < array_length(dialogues) - 1) { 
+		index++ 
+	} else { 
+		after()
+		instance_destroy() 
 	}
 }

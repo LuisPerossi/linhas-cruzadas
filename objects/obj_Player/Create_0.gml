@@ -9,4 +9,6 @@ spd = 3
 grav = .2
 jspd = -5
 termVel = 5
-grounded = false
+
+// Checks
+onGround = false
