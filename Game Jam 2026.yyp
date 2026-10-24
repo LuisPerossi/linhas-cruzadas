@@ -135,6 +135,7 @@
     {"id":{"name":"spr_PlayerJump","path":"sprites/spr_PlayerJump/spr_PlayerJump.yy",},},
     {"id":{"name":"spr_PlayerPlaceHolder","path":"sprites/spr_PlayerPlaceHolder/spr_PlayerPlaceHolder.yy",},},
     {"id":{"name":"spr_PlayerWalk","path":"sprites/spr_PlayerWalk/spr_PlayerWalk.yy",},},
+    {"id":{"name":"spr_Railings","path":"sprites/spr_Railings/spr_Railings.yy",},},
     {"id":{"name":"spr_Sea","path":"sprites/spr_Sea/spr_Sea.yy",},},
     {"id":{"name":"spr_Sign","path":"sprites/spr_Sign/spr_Sign.yy",},},
     {"id":{"name":"spr_Tire","path":"sprites/spr_Tire/spr_Tire.yy",},},
