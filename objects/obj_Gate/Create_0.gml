@@ -3,7 +3,7 @@ event_inherited();
 
 image_alpha = 0
 
-interactable = true
+interactable = false
 interactAction = function() {
 	interactable = false
 	global.objective = -1

@@ -29,6 +29,6 @@ with (obj_Button4) {
 }
 
 if (array_length(sequence) >= 4) {
-	if (array_equals(sequence, answer)) { room_goto(rm_Stage) }
+	if (array_equals(sequence, answer)) { room_goto(rm_Final) }
 	else { sequence = [] }
 }

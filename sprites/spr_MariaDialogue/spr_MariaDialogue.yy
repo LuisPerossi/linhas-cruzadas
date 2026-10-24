@@ -3,7 +3,7 @@
   "%Name":"spr_MariaDialogue",
   "bboxMode":0,
   "bbox_bottom":31,
-  "bbox_left":0,
+  "bbox_left":1,
   "bbox_right":31,
   "bbox_top":0,
   "collisionKind":1,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"6ebbe9ad-b44d-4373-97d0-69023c1b0886","name":"6ebbe9ad-b44d-4373-97d0-69023c1b0886","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bc6ea39d-bee9-4e82-8f43-9947e9f8c12a","name":"bc6ea39d-bee9-4e82-8f43-9947e9f8c12a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":32,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"d1a06a69-ee88-47c4-aa8a-0964e457b109","blendMode":0,"displayName":"default","isLocked":false,"name":"d1a06a69-ee88-47c4-aa8a-0964e457b109","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"3451fd27-1ca6-440d-aefe-7b9fd3e4dfc5","blendMode":0,"displayName":"default","isLocked":false,"name":"3451fd27-1ca6-440d-aefe-7b9fd3e4dfc5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_MariaDialogue",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6ebbe9ad-b44d-4373-97d0-69023c1b0886","path":"sprites/spr_MariaDialogue/spr_MariaDialogue.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e94e19d2-c693-406b-b9b4-5e863226aebc","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bc6ea39d-bee9-4e82-8f43-9947e9f8c12a","path":"sprites/spr_MariaDialogue/spr_MariaDialogue.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"055e81d1-89a6-4193-beac-db4fd0a63d93","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
