@@ -15,3 +15,5 @@ _dialogue.after = function() {
 	global.finished = 1
 	startEnd = true 
 }
+
+image_alpha = 0

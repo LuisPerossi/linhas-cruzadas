@@ -1,5 +1,7 @@
 allowStart = false
 
+startEndSequence = 0
+
 if (instance_exists(obj_Dialogue)) { exit }	
 			
 var _dialogue = instance_create_layer(x, y, "Instances", obj_Dialogue)

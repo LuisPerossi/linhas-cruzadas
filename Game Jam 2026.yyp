@@ -95,8 +95,6 @@
     {"id":{"name":"rm_MinigameGate","path":"rooms/rm_MinigameGate/rm_MinigameGate.yy",},},
     {"id":{"name":"rm_MinigameTrafficLight","path":"rooms/rm_MinigameTrafficLight/rm_MinigameTrafficLight.yy",},},
     {"id":{"name":"rm_Stage","path":"rooms/rm_Stage/rm_Stage.yy",},},
-    {"id":{"name":"room_Test","path":"rooms/room_Test/room_Test.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"scr_Controls","path":"scripts/scr_Controls/scr_Controls.yy",},},
     {"id":{"name":"sd_End","path":"sounds/sd_End/sd_End.yy",},},
     {"id":{"name":"sd_Stage","path":"sounds/sd_Stage/sd_Stage.yy",},},
@@ -166,12 +164,10 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_Stage","path":"rooms/rm_Stage/rm_Stage.yy",},},
-    {"roomId":{"name":"room_Test","path":"rooms/room_Test/room_Test.yy",},},
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_Final","path":"rooms/rm_Final/rm_Final.yy",},},
     {"roomId":{"name":"rm_MinigameBridge","path":"rooms/rm_MinigameBridge/rm_MinigameBridge.yy",},},
     {"roomId":{"name":"rm_MinigameTrafficLight","path":"rooms/rm_MinigameTrafficLight/rm_MinigameTrafficLight.yy",},},
     {"roomId":{"name":"rm_MinigameGate","path":"rooms/rm_MinigameGate/rm_MinigameGate.yy",},},
-    {"roomId":{"name":"rm_Final","path":"rooms/rm_Final/rm_Final.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

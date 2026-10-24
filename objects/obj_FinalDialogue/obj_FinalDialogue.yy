@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_EndScreen",
+    "path":"sprites/spr_EndScreen/spr_EndScreen.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
