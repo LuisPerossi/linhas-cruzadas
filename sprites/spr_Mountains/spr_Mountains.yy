@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Background",
-    "path":"folders/Sprites/Background.yy",
+    "name":"Parallax",
+    "path":"folders/Sprites/Background/Parallax.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
