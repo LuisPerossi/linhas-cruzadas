@@ -76,6 +76,7 @@
     {"id":{"name":"obj_GateMinigame","path":"objects/obj_GateMinigame/obj_GateMinigame.yy",},},
     {"id":{"name":"obj_Interactable","path":"objects/obj_Interactable/obj_Interactable.yy",},},
     {"id":{"name":"obj_Manager","path":"objects/obj_Manager/obj_Manager.yy",},},
+    {"id":{"name":"obj_Menu_Principal","path":"objects/obj_Menu_Principal/obj_Menu_Principal.yy",},},
     {"id":{"name":"obj_Parallax","path":"objects/obj_Parallax/obj_Parallax.yy",},},
     {"id":{"name":"obj_Planks","path":"objects/obj_Planks/obj_Planks.yy",},},
     {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},},

@@ -9,3 +9,4 @@ if (!instance_exists(obj_Cursor)) {
 }
 
 global.objective = -1
+global.estado_jogo = "MENU"

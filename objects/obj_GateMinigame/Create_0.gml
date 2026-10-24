@@ -3,6 +3,8 @@ allowStart = false
 if (instance_exists(obj_Dialogue)) { exit }	
 			
 var _dialogue = instance_create_layer(x, y, "Instances", obj_Dialogue)
+
+
 _dialogue.add(spr_PlayerDialogue, "PERSONAGEM", "JOGAR!")
 _dialogue.add(spr_BlindDialogue, "CEGO", "CONTROLES!")
 			

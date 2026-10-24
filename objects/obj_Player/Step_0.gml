@@ -1,5 +1,7 @@
 getControls()
 
+if (global.estado_jogo == "MENU") { exit }
+
 if (instance_exists(obj_Dialogue)) {
 	xspd = 0
 	exit 
