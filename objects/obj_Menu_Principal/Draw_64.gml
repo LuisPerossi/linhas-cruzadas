@@ -23,8 +23,8 @@ if (tela_atual == "PRINCIPAL") {
 
     var _pos_y_titulo = _altura * 0.22;
     draw_set_color(c_white);
-    draw_text(round(_meio_x), round(_pos_y_titulo), "LINHAS CRUZADAS"); 
-    
+    //draw_text(round(_meio_x), round(_pos_y_titulo), "LINHAS CRUZADAS"); 
+	draw_sprite(spr_Logo, -1, round(_meio_x), round(_pos_y_titulo))
  
     for (var i = 0; i < array_length(opcoes); i++) {
         var _cor = c_white;

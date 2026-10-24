@@ -134,6 +134,7 @@
     {"id":{"name":"spr_House","path":"sprites/spr_House/spr_House.yy",},},
     {"id":{"name":"spr_Import","path":"sprites/spr_Import/spr_Import.yy",},},
     {"id":{"name":"spr_KeyE","path":"sprites/spr_KeyE/spr_KeyE.yy",},},
+    {"id":{"name":"spr_Logo","path":"sprites/spr_Logo/spr_Logo.yy",},},
     {"id":{"name":"spr_Low","path":"sprites/spr_Low/spr_Low.yy",},},
     {"id":{"name":"spr_MariaDialogue","path":"sprites/spr_MariaDialogue/spr_MariaDialogue.yy",},},
     {"id":{"name":"spr_Med","path":"sprites/spr_Med/spr_Med.yy",},},
