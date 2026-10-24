@@ -1,6 +1,6 @@
 <div align='center'>
   <h1> Linhas Cruzadas - README </h1>
-  <img width="500" height="auto" alt="Logo completa" src="https://github.com/user-attachments/assets/b6d3fd2a-5daf-43b6-81dd-ea9a544b6fc6" />
+  <img width="500" height="auto" alt="Logo" src="https://github.com/user-attachments/assets/4bf502c9-80b2-4c34-be69-fa79f05c7990" />
 </div>
 
 ##
