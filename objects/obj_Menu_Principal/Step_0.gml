@@ -21,15 +21,22 @@ if (global.estado_jogo == "MENU") {
     
     if (tela_atual == "PRINCIPAL") {
         if (_baixo) {
+			audio_stop_sound(snd_Interact)
+			audio_play_sound(snd_Interact, 100, false)
             selecao_atual += 1;
             if (selecao_atual >= array_length(opcoes)) selecao_atual = 0;
         }
         if (_cima) {
+			audio_stop_sound(snd_Interact)
+			audio_play_sound(snd_Interact, 100, false)
             selecao_atual -= 1;
             if (selecao_atual < 0) selecao_atual = array_length(opcoes) - 1;
         }
         
         if (_confirma) {
+			audio_stop_sound(snd_Interact)
+			audio_play_sound(snd_Interact, 100, false)
+			
             switch(selecao_atual) {
                 case 0: //jogar
                     transicao = true;
@@ -45,6 +52,9 @@ if (global.estado_jogo == "MENU") {
     } 
     else if (tela_atual == "CONTROLES") {
         if (_confirma or _cancela) {
+			audio_stop_sound(snd_Interact)
+			audio_play_sound(snd_Interact, 100, false)
+			
             tela_atual = "PRINCIPAL";
         }
     }

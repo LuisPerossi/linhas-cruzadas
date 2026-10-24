@@ -31,8 +31,10 @@ if (place_meeting(x + xspd, y, obj_Collision)) {
 yspd += grav
 
 // Jumping
-if _jump and onGround
+if _jump and onGround {
+	audio_play_sound(snd_Jump, 11, false)
 	yspd = jspd
+}
 	
 // Fall speed cap
 if yspd > termVel

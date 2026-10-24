@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"sd_End",
+  "%Name":"snd_Jump",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,17 +10,17 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":96.444084,
+  "duration":0.1999093,
   "exportDir":"",
-  "name":"sd_End",
+  "name":"snd_Jump",
   "parent":{
-    "name":"Audio",
-    "path":"folders/Audio.yy",
+    "name":"SFX",
+    "path":"folders/Audio/SFX.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sd_End.mp3",
-  "volume":1.0,
+  "soundFile":"snd_Jump.wav",
+  "volume":0.5,
 }

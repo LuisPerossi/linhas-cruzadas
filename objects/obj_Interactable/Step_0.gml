@@ -7,5 +7,7 @@ var _interact = keyboard_check_pressed(ord("E")) or keyboard_check_pressed(vk_en
 var _playerGrounded = obj_Player.onGround
 
 if (inRange && _interact && _playerGrounded) { 
+	audio_stop_sound(snd_Interact)
+	audio_play_sound(snd_Interact, 100, false)
 	interactAction()
 }

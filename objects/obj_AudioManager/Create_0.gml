@@ -1,2 +1,2 @@
-audio_play_sound(sd_Stage, 10, true);
+audio_play_sound(snd_Stage, 10, true);
 

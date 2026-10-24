@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"sd_Stage",
+  "%Name":"snd_End",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,17 +10,17 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":129.28,
+  "duration":96.444084,
   "exportDir":"",
-  "name":"sd_Stage",
+  "name":"snd_End",
   "parent":{
-    "name":"Audio",
-    "path":"folders/Audio.yy",
+    "name":"Music",
+    "path":"folders/Audio/Music.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sd_Stage.mp3",
-  "volume":0.3,
+  "soundFile":"snd_End.mp3",
+  "volume":1.0,
 }
