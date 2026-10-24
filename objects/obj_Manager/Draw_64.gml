@@ -1,3 +1,5 @@
+if (instance_exists(obj_Menu_Principal)) { exit }
+
 if (global.objective != -1) {
 	var _padding = 10
 	
